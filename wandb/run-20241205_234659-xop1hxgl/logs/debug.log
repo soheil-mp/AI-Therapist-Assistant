@@ -1,0 +1,28 @@
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_setup.py:_flush():68] Current SDK version is 0.19.0
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_setup.py:_flush():68] Configure stats pid to 2672
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Soheil\.config\wandb\settings
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\wandb\settings
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-05 23:46:59,411 INFO    MainThread:2672 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\wandb\run-20241205_234659-xop1hxgl\logs\debug.log
+2024-12-05 23:46:59,412 INFO    MainThread:2672 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\wandb\run-20241205_234659-xop1hxgl\logs\debug-internal.log
+2024-12-05 23:46:59,412 INFO    MainThread:2672 [wandb_init.py:init():639] calling init triggers
+2024-12-05 23:46:59,412 INFO    MainThread:2672 [wandb_init.py:init():645] wandb.init called with sweep_config: {}
+config: {}
+2024-12-05 23:46:59,412 INFO    MainThread:2672 [wandb_init.py:init():688] starting backend
+2024-12-05 23:46:59,412 INFO    MainThread:2672 [wandb_init.py:init():692] sending inform_init request
+2024-12-05 23:46:59,463 INFO    MainThread:2672 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-05 23:46:59,463 INFO    MainThread:2672 [wandb_init.py:init():705] backend started and connected
+2024-12-05 23:46:59,464 INFO    MainThread:2672 [wandb_init.py:init():798] updated telemetry
+2024-12-05 23:46:59,465 INFO    MainThread:2672 [wandb_init.py:init():830] communicating run to backend with 90.0 second timeout
+2024-12-05 23:46:59,476 WARNING MsgRouterThr:2672 [router.py:message_loop():75] message_loop has been closed
+2024-12-05 23:47:04,503 ERROR   MainThread:2672 [wandb_init.py:init():1315] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 1305, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 833, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Soheil\Desktop\source\projects\AI Therapist Assistant\venv\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 277, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
